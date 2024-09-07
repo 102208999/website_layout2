@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif;
+}
+#wrapper-div{
+    width:100%;
+    margin:auto;
+}
+#logo-nav{
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+.clear-fix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+#logo{
+    width: 50%;
+    background-color: lightgray;
+    min-height: 50px;
+float:left;
+}
+h1{
+    line-height: 50px;
+    font-size: 600;
+    color:white;
+    padding-left: 2%;
+}
+span{
+    color:orangered;
+}
+#nav{
+    width: 50%;
+    background-color: lightgray;
+    min-height: 50px;
+    float:right;
+    
+}
+h2{
+    line-height: 50px;
+    font-size: 500;
+    color:white;
+}
+#header-banner{
+    width:100%;
+    min-height:200px;
+    background:grey;
+margin-bottom: 10px;
+}
+#description{
+color:white;
+font-weight: 600;
+line-height: 200px;
+text-align: center;
+}
+#intro-text{
+    width: 100%;
+    background: grey;
+    min-height:80px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 600;
+    color:white;
+    line-height:80px;
+    text-align:center;
+}
+#main-div{
+    width: 100%;
+    min-height:400px;
+    margin-bottom:10px;
+}
+.div-clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+#main-div .box-div{
+    width:30%;
+    min-height:400px;
+    background:grey;
+    float: left;
+}
+#main-div .box-div:nth-child(2){
+    margin-left:5%;
+margin-right:5%;
+}
+#box-header{
+    color:black;
+    font-size: 600;
+    line-height: 400px;
+    text-align:center;
+}
+#box-header2{
+    color:black;
+    font-size: 600;
+    line-height: 400px;
+    text-align:center;
+}
+#box-header3{
+    color:black;
+    font-size: 600;
+    line-height: 400px;
+    text-align:center;
+}
+#footer-div{
+    width: 100%;
+    min-height:50px;
+    background:grey;
+}
+#paragraph{
+    font-weight: 800;
+    color:blue;
+    line-height:50px;
+    text-align:center;
+}
